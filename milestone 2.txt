@@ -1,0 +1,7 @@
+Avery Field
+Milestone #2
+6/12
+
+	Since last week I changed the goal of my project to be to create a topic model of Saturday Night Live monologues to see what the most common topic are for the host of each episode to talk about. To start, I made text files from transcripts of monologues I found online. I also installed the gensim and spaCy libraries. To preprocess my data, I am using the stopwords function in spaCy, which eliminates words from the data that will not influence what the topic of the data is. I also added my own stopwords that appear in almost every monologue that do not influence what the topic of that monologue is. These are words like “audience” and “applause” which appear in the transcripts as scene direction, and phrases like “ladies and gentlemen” and “we’ll be right back” which someone says in almost every transcript. I also created a GitHub repo for my project so my data and code are more easily accessible.
+
+https://github.com/avery-field/PythonProject-June-2020
